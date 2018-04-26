@@ -18,8 +18,7 @@
  Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
  Follow up:
  
- Coud you solve it without converting the integer to a string?
- 
+ Could you solve it without converting the integer to a string?
  */
 
 
@@ -41,11 +40,7 @@ class Solution {
             reversed = reversed*10 + x%10;
             x = x / 10;
         }
-        
-        
         return reversed == original;
-        
-        
         
     }
 };
